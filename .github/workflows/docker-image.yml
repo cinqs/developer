@@ -25,4 +25,4 @@ jobs:
         context: ./docker/
         dockerfile: Dockerfile
         push: true
-        tags: aie-developer:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/aie-developer:latest
