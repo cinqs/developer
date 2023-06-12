@@ -27,4 +27,4 @@ jobs:
         context: .
         dockerfile: docker/Dockerfile
         push: true
-        tags: aie-developer:$(date +%s)
+        tags: aie-developer:latest
